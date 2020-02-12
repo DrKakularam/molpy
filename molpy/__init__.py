@@ -5,7 +5,7 @@ Workshop package
 
 # Add imports here
 from .molpy import *
-from .import program
+from . import program
 # Handle versioneer
 from ._version import get_versions
 versions = get_versions()
