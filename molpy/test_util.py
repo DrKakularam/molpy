@@ -1,6 +1,6 @@
 import pytest
 import molpy
-@pytest.mark.parametrize("point1, Point2 , bench", [
+@pytest.mark.parametrize("point1, point2 , bench", [
     ([0,1], [0,0], 1), 
     ([0,2], [0,0], 2)
     ])
